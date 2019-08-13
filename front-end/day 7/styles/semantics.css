@@ -1,0 +1,150 @@
+@font-face{
+    src: url('../fonts/OpenSans-Light.ttf');
+    font-family: extFont;
+}
+
+@media screen and (max-width:1200px){
+    
+}
+
+@media screen and (max-width:600px){
+    #headerimg{
+        display: none;
+    }
+    
+    #headertext{
+        text-align: center;
+        font-family: Arial;
+        text-shadow: 0px 0px 0px black;
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
+
+body{
+    margin-left: 100px;
+}
+
+nav{
+    width: 90%;
+    border-bottom: 4px double green;
+    background-color: darkgray;
+    clear: both;
+    /*border-radius: 5px; */
+    box-shadow: 5px 5px 2px navy;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+
+nav ul li a{
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none
+}
+
+#aside{
+    height: 600px;
+    margin: 2px;
+    float: left;
+    /*border: 2px solid red; */
+    width: 30%;
+    float: left
+    border: 4px double navy;
+    }
+
+#subcontent{
+    padding: 10px;
+    height: 600px;
+    /*border: 2px solid red;*/
+    width: 57%;
+    float: left;
+    column-count: 2;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+#headerimg{
+    float: center;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#headertext{
+    position: relative;
+    font-family: extFont;
+    color: navy;
+    font-size: 3em;
+    text-shadow: 5px 5px 5px green;
+}
+
+footer{
+    clear: both;
+    width: 85%;
+    height: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: right;
+    /*border-top: 4px double navy;*/
+}
+
+nav ul li a{
+    color: red;
+}
+
+
+#emptable tr:nth-child(odd){
+    background-color: gray;
+    color: yellowgreen;
+}
+
+#emptable tr:nth-child(even){
+    background-color: navy;
+    color: white;
+}
+
+#emptable tr:nth-child(1){
+    background-color: yellow;
+    color: navy;
+}
+
+#emptable{
+    border-radius:  7px;
+}
+
+#emptable tr th:last-child{
+    border-top-right-radius: 6px;
+}
+
+#emptable tr:hover{
+    background-color: white;
+    color: red;
+}
+
+#emptable tr:nth-child(3) td:first-child:hover{
+    transform:scale(0.5);
+}
+
+nav ul li:hover{
+     transform:rotate(-15deg);
+    transition: 1s;
+}
+
+#subcontent,aside{
+    /*background:linear-gradient(#3f87a6,#f69d3c);*/
+    /* background: linear-gradient(to right, #3f87a6,#f69d3c);*/
+    background: linear-gradient(217deg,rgba(255,0,0,0.8),rgba(255,0,0,0) 70.71%), 
+                linear-gradient(127deg,rgba(0,0,255,0.8),rgba(255,0,0,0) 70.71%), 
+                linear-gradient(336deg,rgba(0,255,0,0.8),rgba(0,255,0,0) 70.71%);
+ }

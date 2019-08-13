@@ -1,0 +1,22 @@
+#emplist,#hobbies,#blist{
+    height: 250px;
+    width: 30%;
+    /*border: 2px solid red*/
+    float: left;
+}
+
+#para{
+    clear: both;
+}
+
+#hdrdiv{
+    width: 95%;
+    height: 250px;
+    border-bottom: 4px double navy;
+}
+
+#hdrimg{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}

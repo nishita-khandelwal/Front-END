@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.i2{
+    height: 200px;
+}
+
+.item{
+    background-color: #f14254;
+    padding: 40px;
+    margin: 10px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.i3{
+    order: 1;
+    flex: 1;
+}
